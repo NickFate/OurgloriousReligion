@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayersMob : Mob
 {
-    int MaxHP = 10;
+    public int MaxHP = 10;
 
     private void Awake()
     {
