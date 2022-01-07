@@ -5,6 +5,7 @@ using UnityEngine;
 public class Mob : MonoBehaviour
 {
     private protected int HP;
+    public int Price;
 
     public virtual void TakeDamage(int damage)
     {
