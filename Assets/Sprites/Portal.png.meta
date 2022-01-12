@@ -1,25 +1,16 @@
 fileFormatVersion: 2
-guid: 9cb207f3d6912f24c9143472c1cf7667
+guid: f29825556142a0740b20ac5af530de76
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -60579558266544276
-    second: Mob_0
+      213: 2189510010676529607
+    second: Portal_0
   - first:
-      213: -5816329391211475415
-    second: Mob_1
+      213: -2655743518466041805
+    second: Portal_1
   - first:
-      213: 6001419030744840450
-    second: Mob_2
-  - first:
-      213: 6487078251583620518
-    second: Mob_3
-  - first:
-      213: 8524354705332685443
-    second: Mob_4
-  - first:
-      213: -6951323928403618056
-    second: Mob_5
+      213: 5763079367947051459
+    second: Portal_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -133,7 +124,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mob_0
+      name: Portal_0
       rect:
         serializedVersion: 2
         x: 0
@@ -147,14 +138,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6f5fd47637c82ff0800000000000000
-      internalID: -60579558266544276
+      spriteID: 7c9498211c3b26e10800000000000000
+      internalID: 2189510010676529607
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mob_1
+      name: Portal_1
       rect:
         serializedVersion: 2
         x: 32
@@ -168,14 +159,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92e0d242c3f384fa0800000000000000
-      internalID: -5816329391211475415
+      spriteID: 33819473757e42bd0800000000000000
+      internalID: -2655743518466041805
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mob_2
+      name: Portal_2
       rect:
         serializedVersion: 2
         x: 64
@@ -189,71 +180,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 209b0d3cfc2594350800000000000000
-      internalID: 6001419030744840450
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mob_3
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6a5cdcfbc4bb60a50800000000000000
-      internalID: 6487078251583620518
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mob_4
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 38ac8c6c0779c4670800000000000000
-      internalID: 8524354705332685443
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mob_5
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8f654d087bfe78f90800000000000000
-      internalID: -6951323928403618056
+      spriteID: 3c1eddaa6229aff40800000000000000
+      internalID: 5763079367947051459
       vertices: []
       indices: 
       edges: []
