@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8975426852229750028}
   - component: {fileID: 6552096856623702382}
   - component: {fileID: 6040352929143332924}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Enemy_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -83,6 +83,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8979e7209f67fbf41b05d1260125cc4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyMask:
+    serializedVersion: 2
+    m_Bits: 1024
 --- !u!1 &4616321028271050991
 GameObject:
   m_ObjectHideFlags: 0
@@ -94,7 +97,7 @@ GameObject:
   - component: {fileID: 4873842767256810709}
   - component: {fileID: 5916917543499643884}
   - component: {fileID: 5524166794909025034}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}

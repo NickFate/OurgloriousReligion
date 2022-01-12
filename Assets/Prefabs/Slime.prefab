@@ -48,6 +48,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Price: 10
   MaxHP: 1
+  enemyMask:
+    serializedVersion: 2
+    m_Bits: 2048
+  range: 0.4
 --- !u!70 &6221454298434135670
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -96,6 +100,7 @@ GameObject:
   - component: {fileID: 340004354203819554}
   - component: {fileID: 3971647757146638189}
   - component: {fileID: 1773722678380125312}
+  - component: {fileID: 3389860050936352634}
   m_Layer: 0
   m_Name: Sprite
   m_TagString: Untagged
@@ -111,7 +116,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8979401672658885211}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0.482, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4789499868499399164}
@@ -187,3 +192,15 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &3389860050936352634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8979401672658885211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c24460c3a7083844d96a4e1438556962, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

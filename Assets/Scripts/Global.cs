@@ -9,9 +9,12 @@ public class Global : MonoBehaviour
     private float ValueUpdate = 1.5f;
     
     float Timer;
+    int Money = 0;
 
     public GameObject point;
     public Text CellText;
+    public Text HpText;
+    public Text MoneyText;
 
 
     void Start()
@@ -49,4 +52,12 @@ public class Global : MonoBehaviour
         A.transform.position = point.transform.position;
         CellText.text = Value.ToString("0.0");
     }
+
+    public void AddMoney(int value)
+    {
+        Money += 1;
+        MoneyText.text = Money.ToString();
+    }
+
+
 }
