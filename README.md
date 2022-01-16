@@ -1,4 +1,4 @@
 # OurgloriousReligion
  
 GameJolt
-ьmewo
+ьmo
