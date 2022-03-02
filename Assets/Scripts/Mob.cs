@@ -4,30 +4,21 @@ using UnityEngine;
 
 public class Mob : MonoBehaviour
 {
-    public int HP;
-    public int cost;
-    public string parrent; 
+    private protected int HP;
+    public int Price;
 
-    void Start()
+    public virtual void TakeDamage(int damage)
     {
-        
-    }
 
-    void Update()
-    {
-        
-    }
-
-    protected void GetDamage(int damage)
-    {
         HP -= damage;
-        if (HP <= 0)
+
+        if (HP < 0)
         {
             Die();
         }
     }
 
-    protected void Die()
+    public virtual void Die()
     {
         Destroy(gameObject);
     }

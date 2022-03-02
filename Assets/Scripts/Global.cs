@@ -5,42 +5,59 @@ using UnityEngine.UI;
 
 public class Global : MonoBehaviour
 {
-    private int MP = 0;
-    private int MP_ForTick = 1;
-
-    private float _timer;
+    private float Value = 0;
+    private float ValueUpdate = 1.5f;
+    
+    float Timer;
+    int Money = 0;
 
     public GameObject point;
-    public Text MP_Value;
+    public Text CellText;
+    public Text HpText;
+    public Text MoneyText;
+
 
     void Start()
     {
-        
     }
-
 
     void Update()
     {
-        if (_timer > 1)
+        Timer += Time.deltaTime;
+        if (Timer > 1)
         {
-            MP += MP_ForTick;
-            MP_Value.text = MP.ToString("0.0");
-            _timer = 0;
+            Value += ValueUpdate;
+            Timer = 0;
+            CellText.text = Value.ToString("0.0");
         }
-
-        _timer += Time.deltaTime;
     }
 
-    public void CreateMob(Mob mob)
+    public void Create(Mob mob)
     {
-        if (MP < mob.cost)
+        int cost;
+        if (mob.tag == "l")
+        {
+            cost = 10;
+        }
+        else
+        {
+            cost = 20;
+        }
+        if (Value < cost)
         {
             return;
         }
-        MP -= mob.cost;
-        GameObject MOB = Instantiate<GameObject>(mob.gameObject);
-        MOB.transform.position = point.transform.position;
-        MP_Value.text = MP.ToString("0.0");
+        Value -= cost;
+        GameObject A = Instantiate<GameObject>(mob.gameObject);
+        A.transform.position = point.transform.position;
+        CellText.text = Value.ToString("0.0");
     }
+
+    public void AddMoney(int value)
+    {
+        Money += 1;
+        MoneyText.text = Money.ToString();
+    }
+
 
 }
